@@ -25,7 +25,7 @@ public class projectActivity {
 	  requestSpec = new RequestSpecBuilder()
 			        .setBaseUri("https://api.github.com/user/keys")
 			        .addHeader("Content-Type", "application/json")
-			        .addHeader("Authorization", "token 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")
+			        .addHeader("Authorization", "token ghp_OLw8SNFSYfIKAlptpa9GVOEi9Gedre1IvP")
 			        .build();
   }
   

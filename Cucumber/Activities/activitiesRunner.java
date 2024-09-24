@@ -12,9 +12,10 @@ tags="@SmokeTest",
 publish=true,
 monochrome=true,
 plugin= {"pretty",
-		"html:src/reports/HTML_Report.html",
-		"json:src/reports/JSON_Report.json",
-		"junit:src/reports/XML_Report.xml"
+		"html:test-reports/HTML_Report.html",
+		"json: test-reports/json-report.json",
+		"junit:test-reports/XML_Report.xml"
+		//"html: test-reports"
 }
 )
 public class activitiesRunner {
